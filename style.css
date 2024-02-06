@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+nav {
+    margin-top: 20px;
+    padding: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(240, 234, 234);
+    
+    
+
+}
+
+.logo img {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 120px;
+    height: 20x;
+    background-color: white;
+    display: flex;
+    
+}
+
+.left_header {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    gap: 10px;
+    margin-right: 40px;
+
+}
+
+.button {
+    background-color: orange;
+    border-radius: 20px;
+    width: 30px;
+    text-align: center;
+}
+
+/* left side-bar*/
+
+.two-side-bar {
+    display: flex;
+}
+.lift-sidebar, .right-bar {
+    flex: 1;
+    padding: 10px;
+}
+
+
+
+.left-sidebar {
+    margin-left: 60px;
+    border: 2px solid lightgrey;
+}
+.viedo-container {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+
+}
+
+.primo-side {
+  
+    text-transform: uppercase;
+    border-bottom: 2px solid lightgray;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.recomended {
+    margin-left: 40px;
+    font-weight: 400px;
+    font-size: medium;
+}
+
+
+.article {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.foto-name {
+    width: 40px;
+    border-radius: 30px;
+
+}
+
+
+.immage-span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20 px;
+    margin: 10px;
+    width: 600px;
+}
+
+.react {
+    background-color: rgb(53, 48, 48);
+}
+.signs {
+    justify-content: end;
+}
+
+ 
+/* right side-bar*/
+
+.first-rightbar {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    
+    border: 2px solid red;
+    
+
+}
+
+.logo-twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 300px;
+    padding: 10px;
+    height: 50px;
+}
+
+.medium-small {
+    width: 30px;
+    height: 30px;
+}
+
+.twitter {
+    width: 30px;
+    height: 30px;
+}
+
+.under-twitter {
+    position: relative;
+    top: 50px;
+    width: 300px;
+    margin-left: 150px;
+    padding: 20px;
+  
+}
+
+.search-twitter {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+    
+    
+} 
+
+input {
+    width: 225px;
+    border-radius: 10px;
+    height: 20px;
+    text-align: center;
+}
+
+
+::placeholder {
+    font-size: 18px;
+}
+
+.Maybe {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 250px;
+    font-size: 25px;
+    color: grey;
+    text-decoration: underline;
+}
+
+.reccomend , h3{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 20px;
+    font-size: x-large;
+}
+  
+
+.spanleftside , .spanleftside2 , .spanleftside3 {
+   
+    display: flex;
+    margin-left: 25px;
+    gap: 20px;
+    font-size: 18px;
+    padding: 20px;
+}
+.lessunder {
+    margin: 0;
+}
+
+.reccomend , h3{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 20px;
+    font-size: x-large;
+}
+     
+.who , h3{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 20px;
+    font-size: x-large;
+
+}
+.article2 {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    border-radius: 10px;
+}
+  
+.recently , h3{
+    padding: 10px;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 30px;
+    font-size: x-large;
+}
+
+  
+    
+
+
+
+
